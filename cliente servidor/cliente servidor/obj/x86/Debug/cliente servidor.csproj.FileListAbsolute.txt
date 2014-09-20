@@ -1,0 +1,4 @@
+C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente servidor\cliente servidor\bin\Debug\cliente servidor.exe
+C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente servidor\cliente servidor\bin\Debug\cliente servidor.pdb
+C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente servidor\cliente servidor\obj\x86\Debug\cliente servidor.exe
+C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente servidor\cliente servidor\obj\x86\Debug\cliente servidor.pdb

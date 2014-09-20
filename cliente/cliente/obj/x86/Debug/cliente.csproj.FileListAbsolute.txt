@@ -1,0 +1,10 @@
+C:\Users\Akil\AppData\Local\Temporary Projects\cliente\bin\Debug\cliente.exe
+C:\Users\Akil\AppData\Local\Temporary Projects\cliente\bin\Debug\cliente.pdb
+C:\Users\Akil\AppData\Local\Temporary Projects\cliente\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Akil\AppData\Local\Temporary Projects\cliente\obj\x86\Debug\cliente.exe
+C:\Users\Akil\AppData\Local\Temporary Projects\cliente\obj\x86\Debug\cliente.pdb
+C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente\cliente\obj\x86\Debug\cliente.exe
+C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente\cliente\obj\x86\Debug\cliente.pdb
+C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente\cliente\bin\Debug\cliente.exe
+C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente\cliente\bin\Debug\cliente.pdb
+C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente\cliente\obj\x86\Debug\cliente.csprojResolveAssemblyReference.cache
