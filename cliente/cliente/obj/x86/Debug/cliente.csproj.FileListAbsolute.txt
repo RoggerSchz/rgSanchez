@@ -8,3 +8,4 @@ C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente\cliente\obj\x86\Debu
 C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente\cliente\bin\Debug\cliente.exe
 C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente\cliente\bin\Debug\cliente.pdb
 C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente\cliente\obj\x86\Debug\cliente.csprojResolveAssemblyReference.cache
+C:\Users\Akil\Documents\Visual Studio 2010\Projects\cliente\cliente\bin\Debug\cliente.exe.config

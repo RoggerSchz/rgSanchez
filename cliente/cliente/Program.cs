@@ -23,23 +23,28 @@ namespace cliente
 
             tcpclnt.Connect("127.0.0.1", 1234); 
 
-            Console.WriteLine("Conectado"); 
-            Console.Write("Escriba el mensaje a enviar : "); 
+            Console.WriteLine("Conectado");
+            var javaScriptSerializer = new System.Web.Script.Serialization.JavaScriptSerializer();
+                
+            while (true)
+            {
+                Console.Write("> ");
 
-            String str = Console.ReadLine(); 
-            Stream stm = tcpclnt.GetStream(); 
+                String str = Console.ReadLine();
+                string json = javaScriptSerializer.Serialize(str);
+                Stream stm = tcpclnt.GetStream();
 
-            ASCIIEncoding asen = new ASCIIEncoding(); 
-            byte[] ba = asen.GetBytes(str); 
+                ASCIIEncoding asen = new ASCIIEncoding();
+                byte[] ba = asen.GetBytes(json);
 
-            stm.Write(ba, 0, ba.Length); 
+                stm.Write(ba, 0, ba.Length);
 
-            byte[] bb = new byte[100]; 
-            int k = stm.Read(bb, 0, 100); 
+                byte[] bb = new byte[1200];
+                int k = stm.Read(bb, 0, 1200);
 
-            for (int i = 0; i < k; i++) 
-            Console.Write(Convert.ToChar(bb[i])); 
-
+                for (int i = 0; i < k; i++)
+                    Console.Write(Convert.ToChar(bb[i]));
+            }
             tcpclnt.Close(); 
           } 
 
